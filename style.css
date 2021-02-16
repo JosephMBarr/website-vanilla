@@ -1,0 +1,110 @@
+* {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section-header {
+  font-size: 3rem;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.page-container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.my-name {
+  font-size: 5rem;
+  text-align: center;
+}
+.my-name-container {
+  height: 100vh;
+  flex-basis: 100%;
+  width: 100vw;
+
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.project {
+  flex-basis: 40%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.bordered {
+  border: 5px solid black;
+}
+.project-name {
+  text-align: center;
+  font-size: 2rem;
+  flex-basis: 100%;
+}
+.project-image {
+  max-height: 150px;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+.project-picture {
+  flex-basis: 100%;
+}
+.project-image-replacement {
+  font-size: 5rem;
+}
+.myself-image {
+  width: 10vmax;
+  margin: 20px;
+}
+.myself-picture {
+  flex-basis: 20%;
+}
+.bio{
+  flex-basis: 70%;
+}
+.bordered.section{
+  box-sizing: border-box;
+}
+.section {
+  width: 90vw;
+}
+.download-link {
+  font-size: 3rem;
+}
+.social-icon { 
+  color: black;
+  font-size: 5rem;
+  transition: color 0.2s;
+  margin: 40px;
+}
+.social-link {
+
+  text-decoration:none;
+}
+
+.linkedin-icon:hover {
+  color: #0077b5;
+}
+.twitter-icon:hover {
+  color: #1dcaff;
+}
+.github-icon:hover {
+  color: #000000;
+}
+.section.resume {
+  width: 40vw;
+}
+.section.contact-container {
+  width: 50vw;
+  
+}
